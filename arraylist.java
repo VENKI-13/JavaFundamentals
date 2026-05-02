@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+class arraylist {
+    public static void main(String[] args) {
+        ArrayList<Integer> arr = new ArrayList<>();
+        arr.add(0);
+        arr.addAll(Arrays.asList(1,2,3,4));
+        System.out.println(arr);
+    }
+}
