@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 class arraylist {
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<>();
@@ -8,6 +9,9 @@ class arraylist {
         System.out.println(arr);
         arr.remove(9);
         arr.set(8,13);
+        Collections.sort(arr);
+        System.out.println(arr);
+        Collections.reverse(arr);
         System.out.println(arr);
     }
 }
